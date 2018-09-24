@@ -1,0 +1,48 @@
+.v-navigation-drawer>.v-list:not(.v-list--dense) .v-list__tile {
+	text-decoration: none;
+}
+
+.nav-link:hover, .nav-link:focus {
+    background-color: rgba(255, 255, 255, 0.23);
+    border-radius: 30px;
+}
+
+.nav-item {
+	height: 65px;	
+}
+
+.v-icon,
+.custom-icon {
+	width: 60%;
+	color: #fff;
+}
+
+.v-btn--active, .v-btn:focus, .v-btn:hover {
+    text-decoration: none;
+    font-family: montserrat-regular;
+}
+
+.main-icon {
+	text-align: center;
+	margin-top: 20%;
+}
+
+.v-navigation-drawer .v-list {
+    background-blend-mode: multiply;
+}
+
+.v-navigation-drawer[data-booted=true] {
+	background-color: #00000059;
+	background-blend-mode: multiply;
+	background-image: url(../../../static/img/1.jpg);
+	background-size: cover;
+}
+
+.nav_clicked {
+	background-color:red;
+}
+
+.list-items {
+	color: #00ffffb0;
+	font-size: 1.4em;
+}
