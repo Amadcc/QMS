@@ -1,4 +1,4 @@
-# proj-repa
+# QMS
 
 > A Vue.js project
 
